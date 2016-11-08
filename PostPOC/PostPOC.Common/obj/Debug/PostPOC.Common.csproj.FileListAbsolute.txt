@@ -1,0 +1,6 @@
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\bin\Debug\PostPOC.Common.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\bin\Debug\PostPOC.Common.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\bin\Debug\Newtonsoft.Json.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\obj\Debug\PostPOC.Common.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\obj\Debug\PostPOC.Common.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.Common\obj\Debug\PostPOC.Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+d:\personal.data\project\postpoc\PostBDT\PostBDT\bin\Debug\PostBDT.dll
+d:\personal.data\project\postpoc\PostBDT\PostBDT\bin\Debug\PostBDT.pdb
+d:\personal.data\project\postpoc\PostBDT\PostBDT\obj\Debug\PostBDT.csprojResolveAssemblyReference.cache
+d:\personal.data\project\postpoc\PostBDT\PostBDT\obj\Debug\PostBDT.dll
+d:\personal.data\project\postpoc\PostBDT\PostBDT\obj\Debug\PostBDT.pdb

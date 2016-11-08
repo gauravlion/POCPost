@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PostPOC.Common.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PostPOC.Common.Fakes.ShimFileLogger">
+            <summary>Shim type of PostPOC.Common.FileLogger</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.ShimFileLogger.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.ShimFileLogger.#ctor(PostPOC.Common.FileLogger)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.Common.Fakes.ShimFileLogger.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.AllInstances.WriteInformationString">
+            <summary>Sets the shim of FileLogger.WriteInformation(String message)</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.AllInstances.WriteVerboseString">
+            <summary>Sets the shim of FileLogger.WriteVerbose(String message)</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.ShimFileLogger.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.ShimFileLogger.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.ShimFileLogger.Bind(PostPOC.Common.ILogger)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.Constructor">
+            <summary>Sets the shim of FileLogger.FileLogger()</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.GetFormattedMessageString">
+            <summary>Sets the shim of FileLogger.GetFormattedMessage(String message)</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.StaticConstructor">
+            <summary>Sets the shim of FileLogger.FileLogger()</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.WriteInformationString">
+            <summary>Sets the shim of FileLogger.WriteInformation(String message)</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.ShimFileLogger.WriteVerboseString">
+            <summary>Sets the shim of FileLogger.WriteVerbose(String message)</summary>
+        </member>
+        <member name="T:PostPOC.Common.Fakes.StubFileLogger">
+            <summary>Stub type of PostPOC.Common.FileLogger</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.StubFileLogger.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.StubFileLogger.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.StubFileLogger.InitializeStub">
+            <summary>Initializes a new instance of type StubFileLogger</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.StubFileLogger.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.Common.Fakes.StubFileLogger.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.Common.Fakes.StubILogger">
+            <summary>Stub type of PostPOC.Common.ILogger</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.StubILogger.#ctor">
+            <summary>Initializes a new instance of type StubILogger</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.StubILogger.PostPOC#Common#ILogger#WriteInformation(System.String)">
+            <summary>Sets the stub of ILogger.WriteInformation(String message)</summary>
+        </member>
+        <member name="M:PostPOC.Common.Fakes.StubILogger.PostPOC#Common#ILogger#WriteVerbose(System.String)">
+            <summary>Sets the stub of ILogger.WriteVerbose(String message)</summary>
+        </member>
+        <member name="F:PostPOC.Common.Fakes.StubILogger.WriteInformationString">
+            <summary>Sets the stub of ILogger.WriteInformation(String message)</summary>
+        </member>
+        <member name="F:PostPOC.Common.Fakes.StubILogger.WriteVerboseString">
+            <summary>Sets the stub of ILogger.WriteVerbose(String message)</summary>
+        </member>
+    </members>
+</doc>

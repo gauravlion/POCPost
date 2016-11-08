@@ -1,0 +1,34 @@
+﻿<Window x:Class="PostPOC.App.MainWindow"
+        DataContext="{Binding ViewModel, Mode=TwoWay,RelativeSource={RelativeSource Self}}"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostPOC.App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1297.003" Width="1753.337" Background="#FF3E3131" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="268*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="35,1,0,0" TextWrapping="Wrap" Text="Post" VerticalAlignment="Top" Foreground="#FFFCFAFA" FontSize="39"/>
+        <DataGrid x:Name="MainDataGrid" ItemsSource="{Binding Path=Posts}" AutoGenerateColumns="False"
+              SelectedItem="{Binding Path=SelectedPost, Mode=TwoWay}" SelectedCellsChanged="MainDataGrid_Selected" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id}" />
+                <DataGridTextColumn Header="title" Binding="{Binding title}" />
+                <DataGridTextColumn Header="body" Visibility="Collapsed" Binding="{Binding body}" />
+                <!--<DataGridTextColumn Header="userid" Visibility="Hidden" Binding="{Binding userid}" />-->
+            </DataGrid.Columns>
+
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+
+        </DataGrid>
+
+    </Grid>
+</Window>

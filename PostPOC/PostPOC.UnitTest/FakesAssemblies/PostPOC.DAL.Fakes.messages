@@ -1,0 +1,2 @@
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.DAL.fakes : warning : Cannot generate shim for PostPOC.DAL.IClient: type is an interface.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.DAL.fakes : warning : Cannot generate shim for PostPOC.DAL.IPostDAL: type is an interface.

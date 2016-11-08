@@ -1,0 +1,2504 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PostPOC.App.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PostPOC.App.Common.Fakes.ShimConstants">
+            <summary>Shim type of PostPOC.App.Common.Constants</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimConstants.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimConstants.#ctor(PostPOC.App.Common.Constants)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Common.Fakes.ShimConstants.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimConstants.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimConstants.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimConstants.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimConstants.Constructor">
+            <summary>Sets the shim of Constants.Constants()</summary>
+        </member>
+        <member name="T:PostPOC.App.Common.Fakes.ShimHelper">
+            <summary>Shim type of PostPOC.App.Common.Helper</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.ShimHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.ConverterTextDataFormat">
+            <summary>Sets the shim of Helper.Converter(TextDataFormat dataFormats)</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.CopyCommandIInputElement">
+            <summary>Sets the shim of Helper.CopyCommand(IInputElement inputElement)</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.GetURLRequestObject">
+            <summary>Sets the shim of Helper.GetURL(RequestObject requestObject)</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.JasonConverterObject">
+            <summary>Sets the shim of Helper.JasonConverter(Object obj)</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.ShimHelper.SetClipboardString">
+            <summary>Sets the shim of Helper.SetClipboard(String text)</summary>
+        </member>
+        <member name="T:PostPOC.App.Common.Fakes.StubConstants">
+            <summary>Stub type of PostPOC.App.Common.Constants</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.StubConstants.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.StubConstants.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Common.Fakes.StubConstants.InitializeStub">
+            <summary>Initializes a new instance of type StubConstants</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.StubConstants.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Common.Fakes.StubConstants.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimApp">
+            <summary>Shim type of PostPOC.App.App</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.#ctor(PostPOC.App.App)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimApp.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.AllInstances.Dispose">
+            <summary>Sets the shim of App.Dispose()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of App.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.AllInstances.OnStartupStartupEventArgs">
+            <summary>Sets the shim of App.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimApp.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.Constructor">
+            <summary>Sets the shim of App.App()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.Dispose">
+            <summary>Sets the shim of App.Dispose()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.DisposeBoolean">
+            <summary>Sets the shim of App.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.Main">
+            <summary>Sets the shim of App.Main()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimApp.OnStartupStartupEventArgs">
+            <summary>Sets the shim of App.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimMainWindow">
+            <summary>Shim type of PostPOC.App.MainWindow</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.#ctor(PostPOC.App.MainWindow)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimMainWindow.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.AllInstances.InitializeComponent">
+            <summary>Sets the shim of MainWindow.InitializeComponent()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.AllInstances.MainDataGrid_SelectedObjectSelectedCellsChangedEventArgs">
+            <summary>Sets the shim of MainWindow.MainDataGrid_Selected(Object sender, SelectedCellsChangedEventArgs e)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.AllInstances.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of MainWindow.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.IInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.Markup.IAddChild)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.IFrameworkInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.Markup.IComponentConnector)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimMainWindow.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.ConstructorIMainViewModel">
+            <summary>Sets the shim of MainWindow.MainWindow(IMainViewModel iMainViewModel)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.InitializeComponent">
+            <summary>Sets the shim of MainWindow.InitializeComponent()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.MainDataGrid_SelectedObjectSelectedCellsChangedEventArgs">
+            <summary>Sets the shim of MainWindow.MainDataGrid_Selected(Object sender, SelectedCellsChangedEventArgs e)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimMainWindow.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of MainWindow.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimPostDetailView">
+            <summary>Shim type of PostPOC.App.PostDetailView</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.#ctor(PostPOC.App.PostDetailView)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.ShimPostDetailView.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances.ConvertTextObjectRoutedEventArgs">
+            <summary>Sets the shim of PostDetailView.ConvertText(Object sender, RoutedEventArgs e)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances.InitializeComponent">
+            <summary>Sets the shim of PostDetailView.InitializeComponent()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of PostDetailView.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances._iPostViewModelGet">
+            <summary>Sets the shim of PostDetailView.get__iPostViewModel()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances._iPostViewModelSetIPostViewModel">
+            <summary>Sets the shim of PostDetailView.set__iPostViewModel(IPostViewModel value)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.AllInstances.button_ClickObjectRoutedEventArgs">
+            <summary>Sets the shim of PostDetailView.button_Click(Object sender, RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.IInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.Markup.IAddChild)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.IFrameworkInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.Markup.IComponentConnector)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.ShimPostDetailView.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.ConstructorPostIPostViewModel">
+            <summary>Sets the shim of PostDetailView.PostDetailView(Post selectedPost, IPostViewModel iPostViewModel)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.ConvertTextObjectRoutedEventArgs">
+            <summary>Sets the shim of PostDetailView.ConvertText(Object sender, RoutedEventArgs e)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.InitializeComponent">
+            <summary>Sets the shim of PostDetailView.InitializeComponent()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of PostDetailView.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView._iPostViewModelGet">
+            <summary>Sets the shim of PostDetailView.get__iPostViewModel()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView._iPostViewModelSetIPostViewModel">
+            <summary>Sets the shim of PostDetailView.set__iPostViewModel(IPostViewModel value)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.ShimPostDetailView.button_ClickObjectRoutedEventArgs">
+            <summary>Sets the shim of PostDetailView.button_Click(Object sender, RoutedEventArgs e)</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.StubApp">
+            <summary>Stub type of PostPOC.App.App</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubApp.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.Dispose(System.Boolean)">
+            <summary>Sets the stub of App.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.DisposeBoolean">
+            <summary>Sets the stub of App.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.InitializeStub">
+            <summary>Initializes a new instance of type StubApp</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubApp.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubApp.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Application.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnActivatedEventArgs">
+            <summary>Sets the stub of Application.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnDeactivated(System.EventArgs)">
+            <summary>Sets the stub of Application.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnDeactivatedEventArgs">
+            <summary>Sets the stub of Application.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnExit(System.Windows.ExitEventArgs)">
+            <summary>Sets the stub of Application.OnExit(ExitEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnExitExitEventArgs">
+            <summary>Sets the stub of Application.OnExit(ExitEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)">
+            <summary>Sets the stub of Application.OnFragmentNavigation(FragmentNavigationEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnFragmentNavigationFragmentNavigationEventArgs">
+            <summary>Sets the stub of Application.OnFragmentNavigation(FragmentNavigationEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnLoadCompleted(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnLoadCompletedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnLoadCompleted(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnNavigated(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnNavigated(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnNavigatedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnNavigated(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)">
+            <summary>Sets the stub of Application.OnNavigating(NavigatingCancelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnNavigatingNavigatingCancelEventArgs">
+            <summary>Sets the stub of Application.OnNavigating(NavigatingCancelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationFailed(NavigationFailedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnNavigationFailedNavigationFailedEventArgs">
+            <summary>Sets the stub of Application.OnNavigationFailed(NavigationFailedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationProgress(NavigationProgressEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnNavigationProgressNavigationProgressEventArgs">
+            <summary>Sets the stub of Application.OnNavigationProgress(NavigationProgressEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationStopped(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnNavigationStoppedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnNavigationStopped(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)">
+            <summary>Sets the stub of Application.OnSessionEnding(SessionEndingCancelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnSessionEndingSessionEndingCancelEventArgs">
+            <summary>Sets the stub of Application.OnSessionEnding(SessionEndingCancelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubApp.OnStartup(System.Windows.StartupEventArgs)">
+            <summary>Sets the stub of App.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubApp.OnStartupStartupEventArgs">
+            <summary>Sets the stub of App.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.StubMainWindow">
+            <summary>Stub type of PostPOC.App.MainWindow</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.#ctor(PostPOC.App.ViewModel.IMainViewModel)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.AddChild(System.Object)">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.AddChildObject">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.AddText(System.String)">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.AddTextString">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.ArrangeOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.ArrangeOverrideSize">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.BeginInit">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.BeginInit01">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.EndInit">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.EndInit01">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.GetLayoutClip(System.Windows.Size)">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.GetLayoutClipSize">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.GetUIParentCore">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.GetUIParentCore01">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.GetVisualChild(System.Int32)">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.GetVisualChildInt32">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.HandlesScrolling">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.HandlesScrollingGet">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.HasEffectiveKeyboardFocus">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.HasEffectiveKeyboardFocusGet">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.HitTestCore(System.Windows.Media.GeometryHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.HitTestCore(System.Windows.Media.PointHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.HitTestCoreGeometryHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.HitTestCorePointHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.InitializeStub">
+            <summary>Initializes a new instance of type StubMainWindow</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.IsEnabledCore">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.IsEnabledCoreGet">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.LogicalChildren">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.LogicalChildrenGet">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.MeasureOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.MeasureOverrideSize">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnAccessKey(System.Windows.Input.AccessKeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnAccessKeyAccessKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnActivatedEventArgs">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnApplyTemplate">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnApplyTemplate01">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnChildDesiredSizeChanged(System.Windows.UIElement)">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnChildDesiredSizeChangedUIElement">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnClosedEventArgs">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContentChanged(System.Object,System.Object)">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContentChangedObjectObject">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContentRendered(System.EventArgs)">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContentRenderedEventArgs">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContentStringFormatChanged(System.String,System.String)">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContentStringFormatChangedStringString">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContentTemplateChanged(System.Windows.DataTemplate,System.Windows.DataTemplate)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContentTemplateChangedDataTemplateDataTemplate">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContentTemplateSelectorChanged(System.Windows.Controls.DataTemplateSelector,System.Windows.Controls.DataTemplateSelector)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContentTemplateSelectorChangedDataTemplateSelectorDataTemplateSelector">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContextMenuClosing(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContextMenuClosingContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnContextMenuOpening(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnContextMenuOpeningContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnCreateAutomationPeer">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnCreateAutomationPeer01">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnDeactivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnDeactivatedEventArgs">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGotFocusRoutedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGotMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGotMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGotStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGotStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnGotTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnGotTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnInitialized(System.EventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnInitializedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsKeyboardFocusWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsKeyboardFocusWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsKeyboardFocusedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsKeyboardFocusedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsMouseCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsMouseCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsMouseCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsMouseCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsMouseDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsMouseDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsStylusCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsStylusCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsStylusCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsStylusCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnIsStylusDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnIsStylusDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLostFocusRoutedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLostMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLostStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLostStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnLostTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnLostTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationBoundaryFeedback(System.Windows.Input.ManipulationBoundaryFeedbackEventArgs)">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationBoundaryFeedbackManipulationBoundaryFeedbackEventArgs">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationCompleted(System.Windows.Input.ManipulationCompletedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationCompletedManipulationCompletedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationDelta(System.Windows.Input.ManipulationDeltaEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationDeltaManipulationDeltaEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationInertiaStarting(System.Windows.Input.ManipulationInertiaStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationInertiaStartingManipulationInertiaStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationStarted(System.Windows.Input.ManipulationStartedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationStartedManipulationStartedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnManipulationStarting(System.Windows.Input.ManipulationStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnManipulationStartingManipulationStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseEnterMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseLeaveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPreviewTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnPropertyChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnQueryCursorQueryCursorEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnRenderDrawingContext">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnRenderSizeChanged(System.Windows.SizeChangedInfo)">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnRenderSizeChangedSizeChangedInfo">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnSourceInitialized(System.EventArgs)">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnSourceInitializedEventArgs">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStateChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStateChangedEventArgs">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStyleChanged(System.Windows.Style,System.Windows.Style)">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStyleChangedStyleStyle">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusEnter(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusEnterStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusLeave(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusLeaveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTemplateChanged(System.Windows.Controls.ControlTemplate,System.Windows.Controls.ControlTemplate)">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTemplateChangedControlTemplateControlTemplate">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnToolTipClosing(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnToolTipClosingToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnToolTipOpening(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnToolTipOpeningToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTouchEnter(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTouchEnterTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTouchLeave(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTouchLeaveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.OnVisualChildrenChangedDependencyObjectDependencyObject">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.ParentLayoutInvalidated(System.Windows.UIElement)">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.ParentLayoutInvalidatedUIElement">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.ShouldSerializeContent">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.ShouldSerializeContent01">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.ShouldSerializeProperty(System.Windows.DependencyProperty)">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.ShouldSerializePropertyDependencyProperty">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubMainWindow.ToString">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.ToString01">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubMainWindow.VisualChildrenCount">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubMainWindow.VisualChildrenCountGet">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="T:PostPOC.App.Fakes.StubPostDetailView">
+            <summary>Stub type of PostPOC.App.PostDetailView</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.#ctor(PostPOC.Model.Post,PostPOC.App.ViewModel.IPostViewModel)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.AddChild(System.Object)">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.AddChildObject">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.AddText(System.String)">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.AddTextString">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.ArrangeOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.ArrangeOverrideSize">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.BeginInit">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.BeginInit01">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.EndInit">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.EndInit01">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.GetLayoutClip(System.Windows.Size)">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.GetLayoutClipSize">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.GetUIParentCore">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.GetUIParentCore01">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.GetVisualChild(System.Int32)">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.GetVisualChildInt32">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.HandlesScrolling">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.HandlesScrollingGet">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.HasEffectiveKeyboardFocus">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.HasEffectiveKeyboardFocusGet">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.HitTestCore(System.Windows.Media.GeometryHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.HitTestCore(System.Windows.Media.PointHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.HitTestCoreGeometryHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.HitTestCorePointHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.InitializeStub">
+            <summary>Initializes a new instance of type StubPostDetailView</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.IsEnabledCore">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.IsEnabledCoreGet">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.LogicalChildren">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.LogicalChildrenGet">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.MeasureOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.MeasureOverrideSize">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnAccessKey(System.Windows.Input.AccessKeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnAccessKeyAccessKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnActivatedEventArgs">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnApplyTemplate">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnApplyTemplate01">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnChildDesiredSizeChanged(System.Windows.UIElement)">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnChildDesiredSizeChangedUIElement">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnClosedEventArgs">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContentChanged(System.Object,System.Object)">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContentChangedObjectObject">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContentRendered(System.EventArgs)">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContentRenderedEventArgs">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContentStringFormatChanged(System.String,System.String)">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContentStringFormatChangedStringString">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContentTemplateChanged(System.Windows.DataTemplate,System.Windows.DataTemplate)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContentTemplateChangedDataTemplateDataTemplate">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContentTemplateSelectorChanged(System.Windows.Controls.DataTemplateSelector,System.Windows.Controls.DataTemplateSelector)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContentTemplateSelectorChangedDataTemplateSelectorDataTemplateSelector">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContextMenuClosing(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContextMenuClosingContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnContextMenuOpening(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnContextMenuOpeningContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnCreateAutomationPeer">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnCreateAutomationPeer01">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnDeactivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnDeactivatedEventArgs">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGotFocusRoutedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGotMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGotMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGotStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGotStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnGotTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnGotTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnInitialized(System.EventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnInitializedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsKeyboardFocusWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsKeyboardFocusWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsKeyboardFocusedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsKeyboardFocusedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsMouseDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnIsStylusDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLostFocusRoutedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLostMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLostStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLostStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnLostTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnLostTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationBoundaryFeedback(System.Windows.Input.ManipulationBoundaryFeedbackEventArgs)">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationBoundaryFeedbackManipulationBoundaryFeedbackEventArgs">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationCompleted(System.Windows.Input.ManipulationCompletedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationCompletedManipulationCompletedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationDelta(System.Windows.Input.ManipulationDeltaEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationDeltaManipulationDeltaEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationInertiaStarting(System.Windows.Input.ManipulationInertiaStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationInertiaStartingManipulationInertiaStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationStarted(System.Windows.Input.ManipulationStartedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationStartedManipulationStartedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnManipulationStarting(System.Windows.Input.ManipulationStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnManipulationStartingManipulationStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseEnterMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeaveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPreviewTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnPropertyChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnQueryCursorQueryCursorEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnRenderDrawingContext">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnRenderSizeChanged(System.Windows.SizeChangedInfo)">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnRenderSizeChangedSizeChangedInfo">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnSourceInitialized(System.EventArgs)">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnSourceInitializedEventArgs">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStateChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStateChangedEventArgs">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStyleChanged(System.Windows.Style,System.Windows.Style)">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStyleChangedStyleStyle">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusEnter(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusEnterStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusLeave(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusLeaveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTemplateChanged(System.Windows.Controls.ControlTemplate,System.Windows.Controls.ControlTemplate)">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTemplateChangedControlTemplateControlTemplate">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnToolTipClosing(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnToolTipClosingToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnToolTipOpening(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnToolTipOpeningToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTouchEnter(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTouchEnterTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTouchLeave(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTouchLeaveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.OnVisualChildrenChangedDependencyObjectDependencyObject">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.ParentLayoutInvalidated(System.Windows.UIElement)">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.ParentLayoutInvalidatedUIElement">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.ShouldSerializeContent">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.ShouldSerializeContent01">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.ShouldSerializeProperty(System.Windows.DependencyProperty)">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.ShouldSerializePropertyDependencyProperty">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="M:PostPOC.App.Fakes.StubPostDetailView.ToString">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.ToString01">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="P:PostPOC.App.Fakes.StubPostDetailView.VisualChildrenCount">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="F:PostPOC.App.Fakes.StubPostDetailView.VisualChildrenCountGet">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimBaseLayout">
+            <summary>Shim type of PostPOC.App.Pattern.BaseLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimBaseLayout.#ctor(PostPOC.App.Pattern.BaseLayout)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimBaseLayout.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimBaseLayout.AllInstances.GetLayoutObject">
+            <summary>Sets the shim of BaseLayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimBaseLayout.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimBaseLayout.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimBaseLayout.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimBaseLayout.Bind(PostPOC.App.Pattern.ILayout)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimBaseLayout.Constructor">
+            <summary>Sets the shim of BaseLayout.BaseLayout()</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimBaseLayout.GetLayoutObject">
+            <summary>Sets the shim of BaseLayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimHtmlLayout">
+            <summary>Shim type of PostPOC.App.Pattern.HtmlLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.#ctor(PostPOC.App.Pattern.HtmlLayout)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.Bind(PostPOC.App.Pattern.ILayout)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimHtmlLayout.Constructor">
+            <summary>Sets the shim of HtmlLayout.HtmlLayout()</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimJasonLayout">
+            <summary>Shim type of PostPOC.App.Pattern.JasonLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimJasonLayout.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimJasonLayout.#ctor(PostPOC.App.Pattern.JasonLayout)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimJasonLayout.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimJasonLayout.AllInstances.GetLayoutObject">
+            <summary>Sets the shim of JasonLayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimJasonLayout.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimJasonLayout.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimJasonLayout.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimJasonLayout.Bind(PostPOC.App.Pattern.ILayout)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimJasonLayout.Constructor">
+            <summary>Sets the shim of JasonLayout.JasonLayout()</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimJasonLayout.GetLayoutObject">
+            <summary>Sets the shim of JasonLayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimLayoutCreator">
+            <summary>Shim type of PostPOC.App.Pattern.LayoutCreator</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.#ctor(PostPOC.App.Pattern.LayoutCreator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.AllInstances.CreateLayoutString">
+            <summary>Sets the shim of LayoutCreator.CreateLayout(String layout)</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.Bind(PostPOC.App.Pattern.ILayoutCreator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.Constructor">
+            <summary>Sets the shim of LayoutCreator.LayoutCreator()</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.ShimLayoutCreator.CreateLayoutString">
+            <summary>Sets the shim of LayoutCreator.CreateLayout(String layout)</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubBaseLayout">
+            <summary>Stub type of PostPOC.App.Pattern.BaseLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubBaseLayout.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubBaseLayout.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubBaseLayout.InitializeStub">
+            <summary>Initializes a new instance of type StubBaseLayout</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubBaseLayout.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubBaseLayout.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubHtmlLayout">
+            <summary>Stub type of PostPOC.App.Pattern.HtmlLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubHtmlLayout.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubHtmlLayout.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubHtmlLayout.InitializeStub">
+            <summary>Initializes a new instance of type StubHtmlLayout</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubHtmlLayout.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubHtmlLayout.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubILayout">
+            <summary>Stub type of PostPOC.App.Pattern.ILayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubILayout.#ctor">
+            <summary>Initializes a new instance of type StubILayout</summary>
+        </member>
+        <member name="F:PostPOC.App.Pattern.Fakes.StubILayout.GetLayoutObject">
+            <summary>Sets the stub of ILayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubILayout.PostPOC#App#Pattern#ILayout#GetLayout(System.Object)">
+            <summary>Sets the stub of ILayout.GetLayout(Object Item)</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubILayoutCreator">
+            <summary>Stub type of PostPOC.App.Pattern.ILayoutCreator</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubILayoutCreator.#ctor">
+            <summary>Initializes a new instance of type StubILayoutCreator</summary>
+        </member>
+        <member name="F:PostPOC.App.Pattern.Fakes.StubILayoutCreator.CreateLayoutString">
+            <summary>Sets the stub of ILayoutCreator.CreateLayout(String layout)</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubILayoutCreator.PostPOC#App#Pattern#ILayoutCreator#CreateLayout(System.String)">
+            <summary>Sets the stub of ILayoutCreator.CreateLayout(String layout)</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubJasonLayout">
+            <summary>Stub type of PostPOC.App.Pattern.JasonLayout</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubJasonLayout.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubJasonLayout.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubJasonLayout.InitializeStub">
+            <summary>Initializes a new instance of type StubJasonLayout</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubJasonLayout.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubJasonLayout.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.Pattern.Fakes.StubLayoutCreator">
+            <summary>Stub type of PostPOC.App.Pattern.LayoutCreator</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubLayoutCreator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubLayoutCreator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.Pattern.Fakes.StubLayoutCreator.InitializeStub">
+            <summary>Initializes a new instance of type StubLayoutCreator</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubLayoutCreator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.Pattern.Fakes.StubLayoutCreator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.ShimMainViewModel">
+            <summary>Shim type of PostPOC.App.ViewModel.MainViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.#ctor(PostPOC.App.ViewModel.MainViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances.CaptureErrorException">
+            <summary>Sets the shim of MainViewModel.CaptureError(Exception ex)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances.PostsGet">
+            <summary>Sets the shim of MainViewModel.get_Posts()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances.SelectedPostGet">
+            <summary>Sets the shim of MainViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances.SelectedPostSetPost">
+            <summary>Sets the shim of MainViewModel.set_SelectedPost(Post value)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.AllInstances.ShowDetailedView">
+            <summary>Sets the shim of MainViewModel.ShowDetailedView()</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.Bind(PostPOC.App.ViewModel.IMainViewModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.CaptureErrorException">
+            <summary>Sets the shim of MainViewModel.CaptureError(Exception ex)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.ConstructorIPostDALILogger">
+            <summary>Sets the shim of MainViewModel.MainViewModel(IPostDAL iPostDAL, ILogger iLogger)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.PostsGet">
+            <summary>Sets the shim of MainViewModel.get_Posts()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.SelectedPostGet">
+            <summary>Sets the shim of MainViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.SelectedPostSetPost">
+            <summary>Sets the shim of MainViewModel.set_SelectedPost(Post value)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimMainViewModel.ShowDetailedView">
+            <summary>Sets the shim of MainViewModel.ShowDetailedView()</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.ShimPostViewModel">
+            <summary>Shim type of PostPOC.App.ViewModel.PostViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.#ctor(PostPOC.App.ViewModel.PostViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.AllInstances.CaptureErrorException">
+            <summary>Sets the shim of PostViewModel.CaptureError(Exception ex)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.AllInstances.CopyToClipStringObject">
+            <summary>Sets the shim of PostViewModel.CopyToClip(String layout, Object Item)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.AllInstances.SelectedPostGet">
+            <summary>Sets the shim of PostViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.AllInstances.SelectedPostSetListOfPost">
+            <summary>Sets the shim of PostViewModel.set_SelectedPost(List`1&lt;Post&gt; value)</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.Bind(PostPOC.App.ViewModel.IPostViewModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.CaptureErrorException">
+            <summary>Sets the shim of PostViewModel.CaptureError(Exception ex)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.ConstructorILoggerILayoutCreator">
+            <summary>Sets the shim of PostViewModel.PostViewModel(ILogger iLogger, ILayoutCreator iLayoutCreator)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.CopyToClipStringObject">
+            <summary>Sets the shim of PostViewModel.CopyToClip(String layout, Object Item)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.SelectedPostGet">
+            <summary>Sets the shim of PostViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.ShimPostViewModel.SelectedPostSetListOfPost">
+            <summary>Sets the shim of PostViewModel.set_SelectedPost(List`1&lt;Post&gt; value)</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.StubIMainViewModel">
+            <summary>Stub type of PostPOC.App.ViewModel.IMainViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.#ctor">
+            <summary>Initializes a new instance of type StubIMainViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.AttachBackingFieldToSelectedPost">
+            <summary>Attaches delegates to emulate StubIMainViewModel.SelectedPost as a property with a backing field.</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.PostPOC#App#ViewModel#IMainViewModel#ShowDetailedView">
+            <summary>Sets the stub of IMainViewModel.ShowDetailedView()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.PostPOC#App#ViewModel#IMainViewModel#Posts">
+            <summary>Sets the stub of IMainViewModel.get_Posts()</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.PostsGet">
+            <summary>Sets the stub of IMainViewModel.get_Posts()</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.PostPOC#App#ViewModel#IMainViewModel#SelectedPost">
+            <summary>Sets the stub of IMainViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.SelectedPostGet">
+            <summary>Sets the stub of IMainViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.SelectedPostSetPost">
+            <summary>Sets the stub of IMainViewModel.set_SelectedPost(Post value)</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIMainViewModel.ShowDetailedView">
+            <summary>Sets the stub of IMainViewModel.ShowDetailedView()</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.StubIPostViewModel">
+            <summary>Stub type of PostPOC.App.ViewModel.IPostViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.#ctor">
+            <summary>Initializes a new instance of type StubIPostViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.AttachBackingFieldToSelectedPost">
+            <summary>Attaches delegates to emulate StubIPostViewModel.SelectedPost as a property with a backing field.</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.CopyToClipStringObject">
+            <summary>Sets the stub of IPostViewModel.CopyToClip(String layout, Object Item)</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.PostPOC#App#ViewModel#IPostViewModel#CopyToClip(System.String,System.Object)">
+            <summary>Sets the stub of IPostViewModel.CopyToClip(String layout, Object Item)</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.PostPOC#App#ViewModel#IPostViewModel#SelectedPost">
+            <summary>Sets the stub of IPostViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.SelectedPostGet">
+            <summary>Sets the stub of IPostViewModel.get_SelectedPost()</summary>
+        </member>
+        <member name="F:PostPOC.App.ViewModel.Fakes.StubIPostViewModel.SelectedPostSetListOfPost">
+            <summary>Sets the stub of IPostViewModel.set_SelectedPost(List`1&lt;Post&gt; value)</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.StubMainViewModel">
+            <summary>Stub type of PostPOC.App.ViewModel.MainViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubMainViewModel.#ctor(PostPOC.DAL.IPostDAL,PostPOC.Common.ILogger)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubMainViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubMainViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubMainViewModel</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubMainViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubMainViewModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.App.ViewModel.Fakes.StubPostViewModel">
+            <summary>Stub type of PostPOC.App.ViewModel.PostViewModel</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubPostViewModel.#ctor(PostPOC.Common.ILogger,PostPOC.App.Pattern.ILayoutCreator)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubPostViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.App.ViewModel.Fakes.StubPostViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubPostViewModel</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubPostViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.App.ViewModel.Fakes.StubPostViewModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

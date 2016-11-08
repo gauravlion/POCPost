@@ -1,0 +1,5 @@
+D:\Personal.Data\Project\PostPOC\PostPOC.Model\bin\Debug\PostPOC.Model.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.Model\bin\Debug\PostPOC.Model.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.Model\obj\Debug\PostPOC.Model.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.Model\obj\Debug\PostPOC.Model.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.Model\obj\Debug\PostPOC.Model.csprojResolveAssemblyReference.cache

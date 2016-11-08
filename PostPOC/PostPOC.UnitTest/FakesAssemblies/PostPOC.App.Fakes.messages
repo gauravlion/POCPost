@@ -1,0 +1,11 @@
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate stub for PostPOC.App.Properties.Resources: type is not visible to exported or assembly(PostPOC.App.Fakes).
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate stub for PostPOC.App.Properties.Settings: type is sealed.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate stub for PostPOC.App.Pattern.TextLayout: type is not visible to exported or assembly(PostPOC.App.Fakes).
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate stub for PostPOC.App.Common.Helper: type is sealed.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.Properties.Resources: type is not visible to exported or assembly(PostPOC.App.Fakes).
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.Properties.Settings: type is not visible to exported or assembly(PostPOC.App.Fakes).
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.ViewModel.IPostViewModel: type is an interface.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.ViewModel.IMainViewModel: type is an interface.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.Pattern.ILayoutCreator: type is an interface.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.Pattern.ILayout: type is an interface.
+D:\Personal.Data\Project\PostPOC\PostPOC.UnitTest\Fakes\PostPOC.App.fakes : warning : Cannot generate shim for PostPOC.App.Pattern.TextLayout: type is not visible to exported or assembly(PostPOC.App.Fakes).

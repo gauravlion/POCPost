@@ -1,0 +1,10 @@
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.DAL.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.DAL.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.Common.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.Model.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.Common.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\bin\Debug\PostPOC.Model.pdb
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\obj\Debug\PostPOC.DAL.csprojResolveAssemblyReference.cache
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\obj\Debug\PostPOC.DAL.dll
+D:\Personal.Data\Project\PostPOC\PostPOC.DAL\obj\Debug\PostPOC.DAL.pdb

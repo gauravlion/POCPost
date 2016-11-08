@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PostPOC.DAL.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PostPOC.DAL.Fakes.ShimPostDAL">
+            <summary>Shim type of PostPOC.DAL.PostDAL</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.#ctor(PostPOC.DAL.PostDAL)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.ShimPostDAL.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.AllInstances.QueryDetailOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{PostPOC.DAL.PostDAL,System.String,``0})">
+            <summary>Sets the shim of PostDAL.QueryDetail(String URL)</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimPostDAL.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.Bind(PostPOC.DAL.IPostDAL)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimPostDAL.ConstructorILoggerIClient">
+            <summary>Sets the shim of PostDAL.PostDAL(ILogger iLogger, IClient iClient)</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimPostDAL.QueryDetailOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets the shim of PostDAL.QueryDetail(String URL)</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.ShimWebClient">
+            <summary>Shim type of PostPOC.DAL.WebClient</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimWebClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimWebClient.#ctor(PostPOC.DAL.WebClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.ShimWebClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.AllInstances.GetClient">
+            <summary>Sets the shim of WebClient.GetClient()</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.AllInstances.GetResponseHttpClientString">
+            <summary>Sets the shim of WebClient.GetResponse(HttpClient httpClient, String url)</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimWebClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimWebClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.ShimWebClient.Bind(PostPOC.DAL.IClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.Constructor">
+            <summary>Sets the shim of WebClient.WebClient()</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.GetClient">
+            <summary>Sets the shim of WebClient.GetClient()</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.ShimWebClient.GetResponseHttpClientString">
+            <summary>Sets the shim of WebClient.GetResponse(HttpClient httpClient, String url)</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.StubIClient">
+            <summary>Stub type of PostPOC.DAL.IClient</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIClient.#ctor">
+            <summary>Initializes a new instance of type StubIClient</summary>
+        </member>
+        <member name="F:PostPOC.DAL.Fakes.StubIClient.GetClient">
+            <summary>Sets the stub of IClient.GetClient()</summary>
+        </member>
+        <member name="F:PostPOC.DAL.Fakes.StubIClient.GetResponseHttpClientString">
+            <summary>Sets the stub of IClient.GetResponse(HttpClient httpClient, String url)</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIClient.PostPOC#DAL#IClient#GetClient">
+            <summary>Sets the stub of IClient.GetClient()</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIClient.PostPOC#DAL#IClient#GetResponse(System.Net.Http.HttpClient,System.String)">
+            <summary>Sets the stub of IClient.GetResponse(HttpClient httpClient, String url)</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.StubIPostDAL">
+            <summary>Stub type of PostPOC.DAL.IPostDAL</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIPostDAL.#ctor">
+            <summary>Initializes a new instance of type StubIPostDAL</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIPostDAL.PostPOC#DAL#IPostDAL#QueryDetail``1(System.String)">
+            <summary>Sets the stub of IPostDAL.QueryDetail(String URL)</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubIPostDAL.QueryDetailOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets stubs of QueryDetail(String URL)</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.StubPostDAL">
+            <summary>Stub type of PostPOC.DAL.PostDAL</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubPostDAL.#ctor(PostPOC.Common.ILogger,PostPOC.DAL.IClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubPostDAL.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubPostDAL.InitializeStub">
+            <summary>Initializes a new instance of type StubPostDAL</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubPostDAL.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubPostDAL.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:PostPOC.DAL.Fakes.StubWebClient">
+            <summary>Stub type of PostPOC.DAL.WebClient</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubWebClient.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubWebClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:PostPOC.DAL.Fakes.StubWebClient.InitializeStub">
+            <summary>Initializes a new instance of type StubWebClient</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubWebClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:PostPOC.DAL.Fakes.StubWebClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
